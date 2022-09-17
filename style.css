@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700;800&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* First table */
+
+.First table {
+    border: 2px solid #fec107;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: "montserrat"
+}
+
+.First td {
+    border: 2px solid #fec107;
+    padding: 20px 150px 20px 15px;    
+    text-align: left;
+    background: #382c6e;
+    color: white;
+    font-size: large;
+    
+}
+
+.First th {
+    border: 2px solid #fec107;
+    padding: 20px;
+    text-align: center;
+    background: #fec107 ;   
+    font-weight: 900;
+    font-size: large;
+    
+}
+
+.First th:nth-of-type(2) {
+
+background: #e5ae30;
+}
+
+/* Second table */
+
+.Second table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: "lato"
+}
+
+.Second th {
+    border: 2px solid white;
+    padding: 20px 150px 20px 15px;   
+    text-align: left;
+    background: #86006f;
+    color: white;
+    font-size: x-large;
+}
+
+.Second td {
+    border: 2px solid white;
+    padding: 20px 40px 20px 15px;
+    text-align: left;
+    background: #f37ecf;
+    font-size: x-large;
+    color: white;
+
+}
+
+.High td {
+    background: #af5593;
+}
+
+/* Third table */
+
+.Third table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: "roboto"
+}
+
+.Third th {
+    border: 2px solid black;
+    padding: 5px 50px 5px 5px;   
+    text-align: left;
+    background: white;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+
+.Third th:first-of-type {
+    font-weight: 600;
+    padding: 0 30px 0 5px;
+}
+
+.Third td {
+    border: 2px solid black;
+    padding: 5px 70px 5px 5px;
+    text-align: left;
+    background: white;
+    font-size: medium;
+    color: black;
+
+}
+
+.bold {
+    font-weight: 600;
+    
+}
+
+td.Mėlina {
+    background: #4f4fff;
+    color: white
+}
+
+td.Oranžinė {
+    background: #fea500;
+    color: white;
+}
+
+td.Žalia {
+    background: #16c03b;
+    color: white;
+}
